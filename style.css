@@ -107,6 +107,17 @@ p {
   justify-content: left;
   margin: 0px;
 }
+
 .text-center {
   text-align: center !important;
 }
+@media (max-width: 576px) 
+{ .primary-link {display: block;
+    text-align: center;
+   margin: 0 20px;}
+  h1{font-size: 35px;}
+h2{font-size: 22px;}
+h3{font-size: 25px;}
+p {font-size: 18px;
+text-align: center;}
+.mb-3{text-align: center;}}
